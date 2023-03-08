@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+.logo {
+    @media screen and (max-width: 300px) {
+        width: 100px !important;
+        position: absolute;
+    }
+    @media screen and (max-width: 576px) {
+        width: 200px !important;
+        position: absolute;
+    }
+}
